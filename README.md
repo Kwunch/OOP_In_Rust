@@ -983,4 +983,5 @@ pub mod doubly_linked_list {
 }
 ```
 
-These are how we can do OOP in Rust by Mimicking Inheritance to implement an OOP like implementation.
+These are how we can do OOP in Rust by Mimicking Inheritance to implement an OOP like implementation. Using 'Barebones Programming' we practically implement it from scratch. I hope you have found a new enjoyment for Rust and a better understanding of programming at an internal level.
+See source code to run it yourself :)
