@@ -36,13 +36,13 @@ let mut my_var: u16 = 42;
 
 ### Primitive DataTypes
 
-Rust has several primitive data types, including integers, floating-point numbers, booleans, characters, and arrays. The integer types in Rust include signed and unsigned integers of different sizes, such as `i8` (signed 8-bit integer) and `u64` (unsigned 64-bit integer). Rust also has two floating-point types, f32 and f64, 32 bit and 64 bit (better known as Float and Double), as well as a bool type for boolean values and a `char` type for Unicode characters. The possible values for integers include both of unsigned sizes (`u8`, `u16`, `u32`, `u64`) and signed integer sizes (`i8`, `i16`, `i32`, `i64`) with the added options of 128 bit integer sizes for unsigned and signed integers through Rusts `std` library
+Rust has several primitive data types, including integers, floating-point numbers, booleans, characters, and arrays. The integer types in Rust include signed and unsigned integers of different sizes, such as `i8` (signed 8-bit integer) and `u64` (unsigned 64-bit integer). Rust also has two floating-point types, `f32` and `f64`, 32 bit and 64 bit (better known as Float and Double), as well as a `bool` type for boolean values and a `char` type for Unicode characters. The possible values for integers include both of unsigned sizes (`u8`, `u16`, `u32`, `u64`) and signed integer sizes (`i8`, `i16`, `i32`, `i64`) with the added options of 128 bit integer sizes for unsigned and signed integers through Rusts `std` library
 
 ```Rust
 let rust_float: f32 = 3.14; // Declaring And Initializing A Float (f32 32-bit) Variable
 let rust_double: f64 = 3.1415; // Declaring And Initializing A Double (f64 64-bit) Variable
 let example_flag: bool = false; // Declaring A boolean Value In Rust
-let rust_char: char = `A`; // Declaring And Initializing A char Variable
+let rust_char: char = 'A'; // Declaring And Initializing A char Variable
 std::i128;
 std::u128;
 ```
