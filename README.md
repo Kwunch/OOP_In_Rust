@@ -217,7 +217,7 @@ Assume you are attempting to build a Recursive Data Structure in Rust, we will u
 
 ```Rust
 struct BinaryTree {
-    value: `i32`,
+    value: i32,
     left: Option<BinaryTree>,
     right: Option<BinaryTree>,
 }
@@ -233,7 +233,7 @@ struct BinaryTree {
 
 ```Rust
 struct BinaryTree {
-    value: `i32`,
+    value: i32,
     left: Option<Box<BinaryTree>>,
     right: Option<Box<BinaryTree>>,
 }
